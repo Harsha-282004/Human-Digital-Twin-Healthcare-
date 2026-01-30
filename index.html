@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Digital Twin Healthcare</title>
+
+  <link rel="stylesheet" href="style.css"/>
+  <link
+  rel="stylesheet"
+  href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+/>
+
+</head>
+
+<body>
+
+<!-- ================= Loader ================= -->
+<div id="loader" class="loader">Loading...</div>
+
+
+<!-- ================= Navbar ================= -->
+<nav class="navbar">
+  <h2 class="logo">HealthTwin</h2>
+
+  <ul class="nav-links" id="navLinks">
+    <li><a href="#home">Home</a></li>
+    <li><a href="#features">Features</a></li>
+    <li><a href="#usecase">Use Case</a></li>
+    <li><a href="#contact">Contact</a></li>
+  </ul>
+
+  <div class="nav-actions">
+    <button id="modeToggle">🌙</button>
+    <button class="menu" onclick="toggleMenu()">☰</button>
+  </div>
+</nav>
+
+
+<!-- ================= Hero (Background via CSS) ================= -->
+<section class="hero" id="home">
+  <div class="hero-content">
+    <h1>Human Digital Twins for Smarter Healthcare</h1>
+
+    <p>
+      AI-powered virtual models that predict diseases, test treatments,
+      and personalize medical care safely.
+    </p>
+
+    <a href="#features" class="btn">Get Started</a>
+  </div>
+</section>
+
+
+<!-- ================= Features ================= -->
+<section id="features" class="section">
+  <h2>Key Features</h2>
+
+  <div class="grid">
+    <div class="card">AI Prediction</div>
+    <div class="card">Real-time Monitoring</div>
+    <div class="card">Virtual Testing</div>
+    <div class="card">Personalized Care</div>
+  </div>
+</section>
+
+
+<!-- ================= Use Case ================= -->
+<section id="usecase" class="section light">
+  <h2>Heart Patient Use Case</h2>
+
+  <p>
+    A digital twin of the patient’s heart is created using real-time health data.
+    Doctors test multiple medicines virtually and choose the safest treatment
+    before applying it to the real patient.
+  </p>
+</section>
+
+
+<!-- ================= Contact ================= -->
+<section id="contact" class="section">
+  <h2>Contact Us</h2>
+
+  <form id="contactForm">
+    <input type="text" id="name" placeholder="Name" required />
+    <input type="email" id="email" placeholder="Email" required />
+    <textarea id="message" placeholder="Message" required></textarea>
+    <button type="submit">Send Message</button>
+  </form>
+</section>
+
+
+<footer>
+  <p>© 2026 Digital Twin Healthcare | All Rights Reserved</p>
+  <div class="social-icons">
+    <a href="https://facebook.com" target="_blank" aria-label="Facebook">
+      <i class="fab fa-facebook-f"></i>
+    </a>
+    <a href="https://twitter.com" target="_blank" aria-label="Twitter">
+      <i class="fab fa-twitter"></i>
+    </a>
+    <a href="https://linkedin.com" target="_blank" aria-label="LinkedIn">
+      <i class="fab fa-linkedin-in"></i>
+    </a>
+    <a href="https://instagram.com" target="_blank" aria-label="Instagram">
+      <i class="fab fa-instagram"></i>
+    </a>
+  </div>
+</footer>
+
+
+
+
+<!-- ================= Scroll Top ================= -->
+<button id="topBtn">↑</button>
+
+
+<script src="script.js"></script>
+
+</body>
+</html>
